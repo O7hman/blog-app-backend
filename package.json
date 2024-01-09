@@ -1,0 +1,30 @@
+{
+  "name": "blog-app-backend",
+  "version": "1.0.0",
+  "description": "Back end for the blog-app",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./src/server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/O7hman/blog-app-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/O7hman/blog-app-backend/issues"
+  },
+  "homepage": "https://github.com/O7hman/blog-app-backend#readme",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "firebase-admin": "^12.0.0",
+    "mongoose": "^8.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
